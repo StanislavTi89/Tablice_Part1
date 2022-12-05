@@ -37,7 +37,7 @@ public class Main {
         System.out.println(kilo[1]);
         System.out.println(kilo[2]);
 
-        //Задачв 4
+        //Задача 4
         System.out.println("Задача 4");
         int [ ] freeMas31 = new int[1];
         freeMas31[0] = 3;
@@ -54,6 +54,14 @@ public class Main {
         int oneMas12 = oneMas11[2];
         System.out.println(oneMas12);
 
+        //Задача 5
+        System.out.println("Задача 5");
+        double [] kilo11 = {1.57, 7.654, 9.986};
+        kilo11[2] = 9.986;
+        double kilo12 = kilo11[2];
+        System.out.println(kilo12);
+        System.out.println(kilo11[1]);
+        System.out.println(kilo11[0]);
 
     }
 }
