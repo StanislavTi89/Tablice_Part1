@@ -37,6 +37,23 @@ public class Main {
         System.out.println(kilo[1]);
         System.out.println(kilo[2]);
 
+        //Задачв 4
+        System.out.println("Задача 4");
+        int [ ] freeMas31 = new int[1];
+        freeMas31[0] = 3;
+        int freeMass32 = freeMas31[0];
+        System.out.println(freeMass32);
+
+        int [ ] twoMas21 = new int [2];
+        twoMas21[1] = 2;
+        int twoMas22 = twoMas21[1];
+        System.out.println(twoMas22);
+
+        int [ ] oneMas11 = new int [3];
+        oneMas11[2] = 1;
+        int oneMas12 = oneMas11[2];
+        System.out.println(oneMas12);
+
 
     }
 }
